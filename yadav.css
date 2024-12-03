@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #000000;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    color: whitesmoke;
+    margin-left: 50px;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+
+}
+
+#video {
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    color: aqua;
+}
+
+.links {
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.main2 {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    margin-top: -20px;
+    /* border: 2px solid green; */
+    margin-left: 50px;
+}
+
+.img {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid green; */
+    margin-left: 150px;
+    /* margin-top: -0px; */
+
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    /* margin-left: 80px; */
+    object-fit: contain;
+    /* position: relative; */
+    /* top: -100px; */
+    /* left: -365px; */
+}
+
+
+.intro {
+    width: 50%;
+    font-size: 50px;
+    margin-top: 200px;
+    color: #02b3bf;
+    margin-left: 300px;
+
+
+}
+
+.intro:hover {
+    transition: all 2s ease-in;
+    transform: scale(1.1);
+}
+
+.name {
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+p {
+    /* text-shadow: 0 0 30px #ff00e6, 0 0 130px #ff00f7 */
+}
+
+.main3 {
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+
+
+.hcc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 80px;
+
+}
+
+.html {
+    background-image: url(html.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    color: aliceblue;
+}
+
+/* .html h3 {
+    position: relative;
+    bottom: -220px;
+    font-size: 30px;
+    left: 50px;
+} */
+
+.kss h2 {
+    color: white;
+    color: #02b3bf;
+
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    /* font-family: sans-serif;
+     */
+    font-family: "Edu AU VIC WA NT Pre", serif;
+
+}
+
+.css {
+    background-image: url(css.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.c {
+    background-image: url(c.png);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#main4 {
+    margin-left: 50px;
+}
+
+#zomato img {
+    width: 200px;
+    height: 200px;
+}
+
+#but p {
+    color: #000000;
+
+}
+
+#main41 h2 {
+    color: #02b3bf;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 100px;
+    /* font-family: "Edu AU VIC WA NT Pre", serif;
+     */
+    font-family: "Raleway", serif;
+
+
+}
+
+#main41 h3 {
+    color: #ffff;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+
+#main5 {
+    color: #02b3bf;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+#About {
+    font-size: 42px;
+    margin-left: 100px;
+    /* margin-left: 50px; */
+
+
+}
+
+#Abme {
+    /* font-family: "Edu AU VIC WA NT Pre", serif; */
+
+    font-family: "Sour Gummy", sans-serif;
+    /* width: 70%; */
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left: 250px;
+    line-height: 50px;
+    color: #ffff;
+    font-size: 25px;
+}
+
+#main6 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#insta {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    /* margin-left: 250px; */
+}
+
+#whats {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#linked {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #02b3bf;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-left: 100px;
+    color: #02b3bf;
+
+}
